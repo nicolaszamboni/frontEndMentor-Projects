@@ -68,6 +68,9 @@ main {
   flex-direction: row;
 }
 
+#button:hover {
+    background-color: hsl(158, 36%, 26%);
+}
 #add-button {
     margin-left: 10px;
 }
