@@ -1,0 +1,132 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-container {
+  display: flex;
+  width: 540px;
+  height: 420px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#img-container {
+  width: 270px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#img-container2 {
+    display: none;
+}
+
+#first-container {
+  width: 260px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  height: 40px;
+  width: 97%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#add-button {
+    margin-left: 10px;
+}
+
+#perfume {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 4px;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+#paragraph {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+}
+
+#first-price {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 28px;
+}
+
+#second-price {
+  margin-left: 10px;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+@media (max-width: 545px) {
+  #img-container {
+    display: none;
+  }
+  #img-container2 {
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+  }
+  #main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+  }
+  #first-container {
+    height: 100%;
+    width: 90%;
+  }
+  #button {
+    width: 100%;
+  }
+}
