@@ -1,0 +1,145 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+main {
+    /* display: flex; */
+    width: 400px;
+    height: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; */
+}
+
+#container-principal {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: hsla(216, 12%, 54%, 0.219);
+    border-radius: 50%;
+}
+
+h1 {
+    margin-left: 30px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+#first-section {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+#raiting-container {
+    display: flex;
+    /* margin-left: 30px; */
+    width: 100%;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+    /* margin-right: 30px; */
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: hsla(216, 12%, 54%, 0.219);
+    border-radius: 50%;
+    margin-right: 20px;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+
+button {
+    width: 330px;
+    height: 40px;   
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+#container-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#selected-raiting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    background-color: hsla(216, 12%, 54%, 0.219);
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+#second-section {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: hsl(217, 12%, 63%);
+}
